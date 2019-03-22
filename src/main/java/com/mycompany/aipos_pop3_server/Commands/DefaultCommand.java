@@ -16,7 +16,6 @@ public class DefaultCommand implements Command{
         
         message = "-ERR invalid command " + ServerHandler.command;
                     ServerHandler.out.println(message);
-                    System.out.println(message);
                     log.error("S: '" + message);
     }
     
